@@ -14,7 +14,9 @@ def crazy_scraper
   @page.xpath('//a[@class="price"]/@data-usd').each do |price|
     value << price.content
     end
-
-  puts hashage = key.zip(value).to_h
+array=[]
+  hashage = key.zip(value).to_h
+array=[hashage]
+puts array
 return hashage
 end

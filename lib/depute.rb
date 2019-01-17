@@ -60,10 +60,10 @@ name={}
 while (key[i]!=nil)
   name["name#{i}"]=key[i]
 
-mail=key[i]+"@assemblee-nationale.fr"
+mail=key[i].downcase+"@assemblee-nationale.fr"
 while (mail[g]!=nil)
 if(mail[g]==" ")
-mail[g]=""
+mail[g]="."
 
 end
 
