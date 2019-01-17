@@ -1,4 +1,4 @@
-require_relative '../lib/test.rb'
+require_relative '../lib/routemairie.rb'
 
 describe "return something with the perform" do
   it "should return result no nil " do
