@@ -48,7 +48,7 @@ end
 def perform
 
 result =get_townhall_email(get_townhall_urls.values)
-
+puts result
 return result
 
 end

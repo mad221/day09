@@ -15,6 +15,6 @@ def crazy_scraper
     value << price.content
     end
 
-  puts array = key.zip(value).to_h
-return array
+  puts hashage = key.zip(value).to_h
+return hashage
 end
